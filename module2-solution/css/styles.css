@@ -16,7 +16,7 @@ h1{
     float: left;    
 }
 
-#tag {
+#title {
     border: 1px solid black;       
     border-top: 0px;
     border-right: 0px;       
@@ -29,12 +29,12 @@ h1{
    
 }
 
-#Beef >div#tag{
+#Beef >div#title{
     background-color:rgb(182, 61, 61);
     color: white
 }
 
-#Sushi >div#tag{
+#Sushi >div#title{
     background-color:rgb(243, 228, 161);
     
 }
@@ -60,7 +60,7 @@ p#menu-content{
     #container >div{
         width: 31%
     }
-    #tag{
+    #title{
         width: 20% 
     }
 }
