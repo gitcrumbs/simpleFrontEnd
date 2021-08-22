@@ -1,0 +1,69 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;      
+}
+
+h1{
+    text-align: center;
+}
+
+
+#container >div{
+    background-color: grey;   
+    border: 1px solid black; 
+    text-align: center; 
+    margin: 5px;
+    font-weight: bold;
+    float: left;    
+}
+
+#tag {
+    border: 1px solid black;       
+    border-top: 0px;
+    border-right: 0px;       
+    margin: 0%;   
+    padding: 3px;
+    background-color: palevioletred;
+    font-weight: bold;
+    float: right;   
+    
+   
+}
+
+#Beef >div#tag{
+    background-color:rgb(182, 61, 61);
+    color: white
+}
+
+#Sushi >div#tag{
+    background-color:rgb(243, 228, 161);
+    
+}
+
+p#menu-content{
+    display: block;
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    #chicken ,#Beef{
+        width: 48%;
+        display: inline;
+    }
+
+    #Sushi{
+        width: 97%;
+    }
+}
+
+@media (min-width:992px) {    
+    #container >div{
+        width: 31%
+    }
+    #tag{
+        width: 20% 
+    }
+}
+
+
+
